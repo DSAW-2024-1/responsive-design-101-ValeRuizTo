@@ -17,17 +17,22 @@ El objetivo de este taller es hacer que la página que ya desarrollamos se vea c
 
 ## Fotos del resultado  
 **Mobile Portrait (320px X 480px)**
+
 ![Imagen 1](./assets/images/celular1.png) ![Imagen 2](./assets/images/celular2.png)
 
 ![Imagen 3](./assets/images/celular3.png) ![Imagen 4](./assets/images/celular4.png)
 
 
 **tablet portrait (768px x 1024px)**
+
 ![Imagen 5](./assets/images/tablet1.png) ![Imagen 6](./assets/images/tablet2.png)
+
 **Desktop(1024px)**
+
 [Imagen 7](./assets/images/desktop1.png) ![Imagen 8](./assets/images/desktop2.png)
 
 ## Link de la Pagina Web
+
 [link de la pagina](https://dsaw-2024-1.github.io/responsive-design-101-ValeRuizTo/) 
 
 
