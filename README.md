@@ -15,15 +15,18 @@ El objetivo de este taller es hacer que la página que ya desarrollamos se vea c
 | **Desktop**             | +1024px                    |
 
 
-## Fotos del resultado
+## Fotos del resultado  
 **Mobile Portrait (320px X 480px)**
 ![Imagen 1](./assets/images/celular1.png) ![Imagen 2](./assets/images/celular2.png)
+![Imagen 3](./assets/images/celular3.png) ![Imagen 2](./assets/images/celular4.png)
 
 **tablet portrait (768px x 1024px)**
+![Imagen 1](./assets/images/tablet1.png) ![Imagen 2](./assets/images/tablet2.png)
 **Desktop(1024px)**
+[Imagen 1](./assets/images/desktop1.png) ![Imagen 2](./assets/images/desktop2.png)
 
 ## Link de la Pagina Web
-[Frontend Mentor](https://www.frontendmentor.io) 
+[link de la paGINA](https://www.frontendmentor.io) arreglar
 
 
 ## Recursos:
