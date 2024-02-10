@@ -1,79 +1,90 @@
-@font-face {
+@font-face /*define fuentes personalizadas */
+{
   font-family: 'Outfit';
   src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype'); 
 }  
-@font-face {
+@font-face 
+{
   font-family: 'young-serif';
   src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype'); 
 }  
 
-* {
+* /*aplica los estilos a toda la pagina*/
+{
   margin: 0;
   padding: 0; 
-  box-sizing: border-box;
+  box-sizing: border-box; /*se pone un modelo de caja*/
   font-family: Outfit;
   font-weight: 300;
   
 }
 
-body {
+body 
+{
   background-color: hsl(0, 0%, 100%);
-  width: 100vw;
+  width: 100vw; /* el ancho y alto para ocupar toda la ventana */
   height: 100vh;
   display: grid;
   place-items: center;
   color: hsl(30, 10%, 34%);
 }
 
-.image-container img {
-  width: 100%;
-  height: auto;
-  border-radius: 15px;
+.image-container img 
+{
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  height: auto; /*Ajusta automaticamente la altura*/
+  border-radius: 15px; /* pone un borde redondo*/
 }
 
-.container {
-  width: 100%;
+.container 
+{
+  width: 100%; /*el contenedor ocupa el 100% del ancho de su contenedor padre*/
   background-color: hsl(0, 0%, 100%);
-  padding: 2rem;
+  padding: 2rem; /* El rem acomoda el pagging relativo al tamañop de la fuente*/
   border-radius: 15px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  /* Orientación de los elementos en columna */
   gap: 1.5rem;
   margin: 20px auto;
 }
 
-h1 {
+h1 
+{
   font-family: young-serif;
   font-weight: 400;
   color: black;
-
 }
 
 p {
   font-size: 1rem;
 }
 
-.primera-parte, .lista{
+.primera-parte, .lista /*se refiere tanto a la clase primera parte como a la calse lista*/
+{
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.lista1 {
+.lista1 
+{
   background-color: hsl(330, 100%, 98%);
   padding: 1.5rem;
   border-radius: 10px;
 
-  ul {
+  ul 
+  {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
     padding-left: 25px;
-    li::marker {
+    li::marker /* se selecciona el marcador de la lista*/
+    {
       color: hsl(332, 51%, 32%);
-      }
+    }
 
-    li strong {
+    li strong 
+    {
       font-weight: bold;
     }
   }
@@ -92,18 +103,21 @@ p {
 
 }
 
-.lista3 {
+.lista3 
+{
   border-top: 1px solid hsl(30, 18%, 87%);
   border-bottom: 1px solid hsl(30, 18%, 87%);
   padding-top: 30px;
   padding-bottom: 30px;
-  ol {
+  ol 
+  {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
     padding-left: 25px;
   }
-  li::marker {
+  li::marker 
+  {
     color:hsl(14, 45%, 36%);
     font-weight: bold;
   }
@@ -112,68 +126,81 @@ p {
   }
 }
 
-.container h3 {
+.container h3 
+{
   color: hsl(332, 51%, 32%);
   margin-left: 20px;
   font-weight: bold;
 }
 
-.container h2 {
+.container h2 
+{
   font-family: young-serif;
   font-weight: 400;
   color:hsl(14, 45%, 36%);
-  
 }
+
 .tabla 
 {
   display: flex;
   flex-direction: column;
   
-table{
+table
+{
   width: 100%;
-  border-spacing: 0; /* Ajustar el espacio entre las celdas de la tabla */
+  border-spacing: 0; /* Ajusta el espacio entre las celdas de la tabla */
 }
 
-p {
+p 
+{
 padding-top: 16px;
 padding-bottom: 15px;
 }
 
-tr {
-  display: flex; /* Convertir las filas en elementos flexibles */
+tr 
+{
+  display: flex; /* Convierte las filas en elementos flexibles */
   border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
- th,td{
+ th,td
+ {
   color: hsl(14, 45%, 36%);
   font-weight: bold;
-  padding: 0.7rem; /* Ajustar el relleno de las celdas */
-  flex: 1;  
+  padding: 0.7rem; /* Ajusta el relleno de las celdas */
+  flex: 1;  /* Hace que el elemento ocupe todo el espacio disponible del contenedor flex*/
   display: flex;
   justify-content:space-between;
  }
- td{
+ td
+ {
   color: hsl(30, 10%, 34%);
   font-weight: 300;
  }
 
 }
 
-
 /* Estilos para tablet y computador */
-@media only screen and (min-width: 1024px) {
-  .container {
+@media only screen and (min-width: 1024px) 
+{
+  .container 
+  {
     width: 50%; /* Para computadores, el contenedor ocupará el 100% del ancho */
   }
-  body{
+  body
+  {
     background-color: hsl(30, 54%, 90%);
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .container {
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) 
+{
+  .container 
+  {
     width: 90%; /* Para tabletas, el contenedor ocupará el 90% del ancho */
   }
-  body{
+  body
+  {
     background-color: hsl(30, 54%, 90%);
   }
 }
