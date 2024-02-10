@@ -15,6 +15,17 @@ El objetivo de este taller es hacer que la página que ya desarrollamos se vea c
 | **Desktop**             | +1024px                    |
 
 
+## Fotos del resultado
+**Mobile Portrait (320px X 480px)**
+![Imagen 1](./assets/images/celular1.png) ![Imagen 2](./assets/images/celular2.png)
+
+**tablet portrait (768px x 1024px)**
+**Desktop(1024px)**
+
+## Link de la Pagina Web
+[Frontend Mentor](https://www.frontendmentor.io) 
+
+
 ## Recursos:
 - En la carpeta `assets` encontrarán las fuentes y las imágenes que utilizaremos a lo largo del desarrollo.
 - En la carpeta `design` encontrarán las imágenes de los diseños sobre los cuales estaremos trabajando.
