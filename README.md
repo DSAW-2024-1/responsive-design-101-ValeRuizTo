@@ -23,7 +23,7 @@ El objetivo de este taller es hacer que la página que ya desarrollamos se vea c
 ![Imagen 3](./assets/images/celular3.png) ![Imagen 4](./assets/images/celular4.png)
 
 
-**tablet portrait (768px x 1024px)**
+**Tablet portrait (768px x 1024px)**
 
 ![Imagen 5](./assets/images/tablet1.png) ![Imagen 6](./assets/images/tablet2.png)
 
@@ -34,6 +34,7 @@ El objetivo de este taller es hacer que la página que ya desarrollamos se vea c
 ## Link de la Pagina Web
 
 [link de la pagina](https://dsaw-2024-1.github.io/responsive-design-101-ValeRuizTo/)
+
 https://dsaw-2024-1.github.io/responsive-design-101-ValeRuizTo/ 
 
 
