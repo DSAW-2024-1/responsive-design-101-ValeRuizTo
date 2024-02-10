@@ -34,7 +34,7 @@ body
   width: 100%; /* Ocupa todo el ancho del contenedor */
   height: auto; /*Ajusta automaticamente la altura*/
   border-radius: 15px; /* pone un borde redondo*/
-  transition: transform 0.1s; /* Agrega una transición para el cambio de transformación */
+  transition: transform 0.1s; /* Agrega una transición para el cambio de "transforma" */
 }
 
 .image-container:hover img {
@@ -45,7 +45,7 @@ body
 {
   width: 100%; /*el contenedor ocupa el 100% del ancho de su contenedor padre*/
   background-color: hsl(0, 0%, 100%);
-  padding: 2rem; /* El rem acomoda el pagging relativo al tamañop de la fuente*/
+  padding: 2rem; /* El rem acomoda el padding relativo al tamaño de la fuente*/
   border-radius: 15px;
   display: flex;
   flex-direction: column;  /* Orientación de los elementos en columna */
@@ -64,7 +64,7 @@ p {
   font-size: 1rem;
 }
 
-.primera-parte, .lista /*se refiere tanto a la clase primera parte como a la calse lista*/
+.primera-parte, .lista /*se refiere tanto a la clase primera parte como a la clase lista*/
 {
   display: flex;
   flex-direction: column;
@@ -106,7 +106,7 @@ p {
     color:hsl(14, 45%, 36%);
   }
   & li:hover {
-    background-color: hsl(0, 0%, 95%); /* Hace que se reslate el fondo de esa linea */
+    background-color: hsl(0, 0%, 95%); /* Hace que se resalte el fondo de esa linea */
     padding:0.3rem;
   }
 
