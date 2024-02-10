@@ -34,6 +34,11 @@ body
   width: 100%; /* Ocupa todo el ancho del contenedor */
   height: auto; /*Ajusta automaticamente la altura*/
   border-radius: 15px; /* pone un borde redondo*/
+  transition: transform 0.1s; /* Agrega una transición para el cambio de transformación */
+}
+
+.image-container:hover img {
+  transform: scale(1.05); /* Agranda la imagen al pasar el cursor sobre ella */
 }
 
 .container 
@@ -101,8 +106,8 @@ p {
     color:hsl(14, 45%, 36%);
   }
   & li:hover {
-    background-color: hsl(0, 0%, 95%) /* Hace que se reslate el fondo de esa linea */
-  
+    background-color: hsl(0, 0%, 95%); /* Hace que se reslate el fondo de esa linea */
+    padding:0.3rem;
   }
 
 }
