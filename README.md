@@ -33,7 +33,8 @@ El objetivo de este taller es hacer que la página que ya desarrollamos se vea c
 
 ## Link de la Pagina Web
 
-[link de la pagina](https://dsaw-2024-1.github.io/responsive-design-101-ValeRuizTo/) 
+[link de la pagina](https://dsaw-2024-1.github.io/responsive-design-101-ValeRuizTo/)
+https://dsaw-2024-1.github.io/responsive-design-101-ValeRuizTo/ 
 
 
 ## Recursos:
