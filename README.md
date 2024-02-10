@@ -26,7 +26,7 @@ El objetivo de este taller es hacer que la página que ya desarrollamos se vea c
 [Imagen 7](./assets/images/desktop1.png) ![Imagen 8](./assets/images/desktop2.png)
 
 ## Link de la Pagina Web
-[link de la paGINA](https://www.frontendmentor.io) arreglar
+[link de la paGINA](https://dsaw-2024-1.github.io/responsive-design-101-ValeRuizTo/) arreglar
 
 
 ## Recursos:
