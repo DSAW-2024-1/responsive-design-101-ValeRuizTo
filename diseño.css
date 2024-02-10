@@ -88,7 +88,7 @@ p {
       font-weight: bold;
     }
   }
-}
+} 
 
 .lista2 {
   ul {
@@ -99,6 +99,10 @@ p {
   }
   li::marker {
     color:hsl(14, 45%, 36%);
+  }
+  & li:hover {
+    background-color: hsl(0, 0%, 95%) /* Hace que se reslate el fondo de esa linea */
+  
   }
 
 }
