@@ -29,7 +29,7 @@ El objetivo de este taller es hacer que la página que ya desarrollamos se vea c
 
 **Desktop(1024px)**
 
-[Imagen 7](./assets/images/desktop1.png) ![Imagen 8](./assets/images/desktop2.png)
+![Imagen 7](./assets/images/desktop1.png) ![Imagen 8](./assets/images/desktop2.png)
 
 ## Link de la Pagina Web
 
